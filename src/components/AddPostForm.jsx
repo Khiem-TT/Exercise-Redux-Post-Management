@@ -1,6 +1,5 @@
 import {useState} from "react";
 import {useDispatch} from "react-redux";
-import {addPosts} from "../features/posts/postSlices.jsx";
 import {addNewPosts} from "../features/posts/newPostSlices.jsx";
 
 function AddPostForm() {

@@ -8,11 +8,8 @@ export const postSlices = createSlice({
     reducers: {
         getPosts: (state, action) => {
             state.posts = action.payload;
-        },
-        addPosts: (state, action) => {
-            state.posts.push(action.payload);
         }
     }
 });
-export const {getPosts, addPosts} = postSlices.actions;
+export const {getPosts} = postSlices.actions;
 export default postSlices.reducer;
